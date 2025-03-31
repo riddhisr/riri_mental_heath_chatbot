@@ -5,7 +5,7 @@ import string
 import google.generativeai as genai
 
 # Configure Gemini API Key
-GEMINI_API_KEY = "AIzaSyDyAGIUZcGArskCrlGMpIP8TA-ZyyQmrmw"  # Replace with your actual API key
+GEMINI_API_KEY = "YOUR_API_KEY"  # Replace with your actual API key
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Load the trained model
